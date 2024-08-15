@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+</head>
+
+<body>
+
+
+    <div class="columns is-4 is-flex is-justify-content-center m-6">
+        <!-- Nome -->
+        <div class="card has-background-white ">
+            <div class="card-content">
+                <div class="content">
+
+                    <h3 class="texto has-text-black-bis is-4 is-flex is-justify-content-center">Formulario de contato</h3>
+
+                    <div class="field">
+                        <label class="label has-text-black-bis	">Nome</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="👤 Ex: Roberto carlos">
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+
+                    <div class="field">
+                        <label class="label has-text-black-bis	">Email</label>
+                        <div class="control  has-icons-right">
+                            <input class="input " type="email" placeholder="✉ Ex: roberto.carlos@gmail.com">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <span class="icon is-small is-right">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </span>
+                        </div>
+                        <p class="help ">Este e-mail é inválido</p>
+                    </div>
+
+                    <!-- telefone -->
+                    <label class="label has-text-black-bis">Telefone</label>
+                    <input class="input" type="text" placeholder="📞 telefone" />
+
+                    <!-- Pais -->
+                    <label class="label has-text-black-bis">Pais</label>
+                    <input class="input" type="text" placeholder="🌎 Qual seu pais de origem?" />
+
+                    <!-- mensagem -->
+
+                    <div class="field">
+                        <label class="label has-text-black-bis	">Mensagem</label>
+                        <div class="control">
+                            <textarea class="textarea" placeholder=" Escreva"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control">
+                            <label class="checkbox has-text-black-bis">
+                                <input type="checkbox">
+                                Eu estou de acordo com <a href="#"> termos de condição</a>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control">
+                            <label class="radio has-text-black-bis">
+                                <input type="radio" name="question">
+                                Sim
+                            </label>
+                            <label class="radio has-text-black-bis">
+                                <input type="radio" name="question">
+                                Não
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="field is-grouped">
+                        <div class="control">
+                            <button class="button is-link has-background-success	">Submit</button>
+                        </div>
+                        <div class="control">
+                            <button class="button is-link is-light">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
